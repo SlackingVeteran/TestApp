@@ -11,7 +11,6 @@ namespace TestApp.Lib
             return new Random().Next();
         }
 
-
         public string GetARandomString(int length)
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
