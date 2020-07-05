@@ -3,7 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://confuser.codeplex.com https://raw.githubusercontent.com/mkaring/ConfuserEx/v1.3.1/Confuser.Core/Project/ConfuserPrj.xsd"
          baseDir="." outputDir="." debug="true">
-  <rule preset="none" pattern="true">
+  <rule preset="normal" pattern="true">
+    <protection id="anti ildasm" />
     <protection id="constants" />
   </rule>
 </project>
